@@ -1,0 +1,256 @@
+/* //////////////////////////////////////////////////////////// */
+/* // Type , vars, main */
+/* //////////////////////////////////////////////////////////// */
+
+:root {
+    --white: #FFF;
+    --black: #000;
+    --primary: #000;
+    --primary-ligher: #000;
+    --primary-darker: #000;
+    --secondary: grey;
+    --secondary-ligher: #000;
+    --secondary-darker: #000;
+    --tertiary: #000;
+    --tertiary-ligher: #000;
+    --tertiary-darker: #000;
+}
+
+h1, .h1,
+h2, .h2,
+h3, .h3,
+h4, .h4,
+h5, .h5,
+h6, .h6 {
+    font-weight: 500;
+}
+
+h1, .h1 {
+    font-size: clamp(1.5rem, 2.5vw, 2.8rem);
+    line-height: clamp(1.9rem, 2.7vw, 3rem);
+    margin-bottom: 1.5rem;
+}
+
+h2, .h2 {
+    font-size: clamp(1.2rem, 2vw, 4rem);
+    line-height: clamp(1.7rem, 2.5vw, 2.4rem);
+    margin-bottom: 1.3rem;
+}
+
+h3, .h3 {
+    font-size: clamp(1rem, 1.75vw, 2rem);
+    line-height: clamp(1.4rem, 2.3vw, 2rem);
+    margin-bottom: 1.1rem;
+}
+
+h4, .h4 {
+    font-size: clamp(1rem, 1.3vw, 1.3rem);
+    margin-bottom: 1rem;
+}
+
+/* //////////////////////////////////////////////////////////// */
+/* // Header and Main Navigation */
+/* //////////////////////////////////////////////////////////// */
+
+/* //////////////////////////////////////////////////////////// */
+/* // Content */
+/* //////////////////////////////////////////////////////////// */
+
+/* //////////////////////////////////////////////////////////// */
+/* // Footer */
+/* //////////////////////////////////////////////////////////// */
+
+/* //////////////////////////////////////////////////////////// */
+/* // Header and Main Navigation */
+/* //////////////////////////////////////////////////////////// */
+nav {
+    background-color: var(--secondary);
+}
+
+nav,
+.navbar-logo,
+.navbar-items a:not(.active),
+.fa {
+    transition: all 0.15s ease-in-out;
+}
+
+.main-nav > .inner {
+    max-width: var(--site_width);
+}
+
+.navbar-items a {
+    padding: 20px;
+    text-decoration: none;
+}
+
+.navbar-items a:hover,
+.navbar-items a.active {
+    color: var(--primary);
+}
+
+.navbar-items ul {
+}
+
+/*.navbar-logo img {
+	max-height: 60px;
+}*/
+
+/*
+.burger {
+	display: none;
+}
+*/
+
+/* //////////////////////////////////////////////////////////// */
+/* // Buttons */
+/* //////////////////////////////////////////////////////////// */
+
+/* //////////////////////////////////////////////////////////// */
+/* // Forms */
+/* //////////////////////////////////////////////////////////// */
+
+input, textrea, select {
+    padding: 5px;
+    border-radius: 0px !important;
+    transition: all 0.25s ease-in-out;
+}
+
+.error-message {
+    text-align: right;
+    width: 100%;
+    font-size: 12px;
+    color: darkred;
+    transition: all 0.25s ease-in-out;
+    position: absolute;
+    top: -17px;
+}
+
+input[type="submit"],
+button[type="submit"] {
+    cursor: pointer;
+}
+
+/* //////////////////////////////////////////////////////////// */
+/* // Custom */
+/* //////////////////////////////////////////////////////////// */
+
+.fl-form .fl-is-required:before {
+    right: 7px;
+}
+
+.fl-form .fl-is-required.fl-wrap-select:after {
+    right: 19px;
+}
+
+.no-margin-first > :first-child {
+    padding-top: 0px;
+    margin-top: 0px !important;
+}
+
+.no-margin-last > :last-child {
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+}
+
+.generic > :last-child,
+.content > :last-child {
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+}
+
+.generic > :first-child,
+.content > :first-child {
+    padding-top: 0px;
+    margin-top: 0px !important;
+}
+
+/* //////////////////////////////////////////////////////////// */
+/* //////////////////////////////////////////////////////////// */
+/* //////////////////////////////////////////////////////////// */
+@media (min-width: 1200px) {
+}
+
+@media (min-width: 1200px) {
+
+}
+
+@media (max-width: 1024px) {
+
+    .main-nav {
+        font-size: 19px;
+    }
+
+    .navbar-items a {
+        padding: 13px;
+    }
+}
+
+@media (max-width: 768px) {
+
+    /*input, textrea, select {
+        width: 100%;
+    }*/
+    /*.burger {
+        display: block;
+        left:    0;
+        top:     0;
+    }*/
+    /*.main-nav {
+        font-size: 20px;
+        padding:   10px 0;
+    }*/
+    .main-nav > .inner {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        max-width: var(--site_width);
+        flex-direction: column;
+    }
+
+    body.nav-open .navbar-items {
+        max-height: 1000px;
+        transition: max-height 0.75s ease-in-out;
+    }
+
+    .navbar-items {
+        width: 100%;
+        overflow: hidden;
+        max-height: 0;
+        transition: max-height 0.75s cubic-bezier(0, 1, 0, 1);
+        margin-left: 0px;
+        text-align: center;
+    }
+
+    .navbar-items li {
+        width: 100%;
+    }
+
+    .navbar-items a {
+        width: 100%;
+        padding: 4px;
+        display: block;
+    }
+
+    .navbar-items ul {
+        margin: 20px 0 0 0 !important;
+    }
+
+    /*.navbar-logo img {
+        max-height: 36px;
+    }*/
+    /*.burger a {
+        padding: 3px 10px;
+        display: block;
+    }*/
+}
+
+@media (max-width: 640px) {
+}
+
+@media (max-width: 480px) {
+
+    /*nav .main-nav > .inner {
+        flex-direction: column;
+    }*/
+
+}

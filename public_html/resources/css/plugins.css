@@ -1,0 +1,132 @@
+.tippy-box {
+    color: var(--white);
+    box-shadow: 0 0 20px 4px rgba(154, 161, 177, .15), 0 4px 80px -8px rgba(36, 40, 47, .25), 0 4px 4px -2px rgba(91, 94, 105, .15);
+    background-color: var(--black);
+    text-align: center;
+    border-radius: 0px;
+    padding: 10px 20px;
+}
+
+.tippy-box[data-placement^=top] > .tippy-arrow:before {
+    border-top-color: var(--black);
+}
+
+.tippy-box[data-placement^=bottom] > .tippy-arrow:before {
+    border-bottom-color: var(--black);
+}
+
+.tippy-box[data-placement^=left] > .tippy-arrow:before {
+    border-left-color: var(--black);
+}
+
+.tippy-box[data-placement^=right] > .tippy-arrow:before {
+    border-right-color: var(--black);
+}
+
+.tippy-box > .tippy-backdrop {
+    background-color: var(--black);
+}
+
+.tippy-box > .tippy-svg-arrow {
+    fill: var(--black);
+}
+
+/*////////////////////////////////////*/
+
+.fl-form input.fl-input, .fl-form select.fl-select, .fl-form textarea.fl-textarea {
+    margin-bottom: 20px;
+}
+
+.fl-form .fl-has-focus input.fl-input, .fl-form .fl-has-focus select.fl-select, .fl-form .fl-has-focus textarea.fl-textarea {
+    background-color: #FFF;
+    border-color: inherit;
+}
+
+.fl-form .fl-has-focus label.fl-label {
+    color: inherit;
+}
+
+.fade-in {
+    -webkit-transition: all .5s ease-in-out;
+    transition: all .5s ease-in-out;
+    opacity: 1;
+    visibility: visible
+}
+
+.fade-in.fade-out {
+    opacity: 0;
+    visibility: hidden
+}
+
+.fl-form .fl-is-active label.fl-label {
+    max-height: 100px;
+    -webkit-transition: all .25s ease-in-out;
+}
+
+.fl-form label.fl-label {
+    max-height: 0;
+    -webkit-transition: all .25s ease-in-out;
+}
+
+.fl-form .fl-is-active label.fl-label {
+    opacity: 1;
+    visibility: visible;
+}
+
+.fl-form label.fl-label {
+    top: -14px;
+}
+
+.fl-form .fl-wrap-select:after {
+    height: 34px;
+}
+
+.fl-form input.fl-input, .fl-form select.fl-select, .fl-form textarea.fl-textarea {
+    margin-bottom: 20px;
+}
+
+.fl-form .fl-has-focus input.fl-input, .fl-form .fl-has-focus select.fl-select, .fl-form .fl-has-focus textarea.fl-textarea {
+    background-color: #FFF;
+    border-color: inherit;
+}
+
+.fl-form .fl-has-focus label.fl-label {
+    color: inherit;
+}
+
+/*////////////////MAGNIFIC /////////////////*/
+
+.mfp-zoom-in {
+    /* start state */
+    /* animate in */
+    /* animate out */
+}
+
+.mfp-zoom-in .mfp-with-anim {
+    opacity: 0;
+    transition: all 0.2s ease-in-out;
+    transform: scale(0.8);
+}
+
+.mfp-zoom-in.mfp-bg {
+    opacity: 0;
+    transition: all 0.3s ease-out;
+}
+
+.mfp-zoom-in.mfp-ready .mfp-with-anim {
+    opacity: 1;
+    transform: scale(1);
+}
+
+.mfp-zoom-in.mfp-ready.mfp-bg {
+    opacity: 0.8;
+}
+
+.mfp-zoom-in.mfp-removing .mfp-with-anim {
+    transform: scale(0.8);
+    opacity: 0;
+}
+
+.mfp-zoom-in.mfp-removing.mfp-bg {
+    opacity: 0;
+}
