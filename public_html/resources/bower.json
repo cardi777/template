@@ -1,0 +1,41 @@
+{
+  "name": "standard-setup",
+  "dependencies": {
+    "dimsemenov": "https://github.com/dimsemenov/Magnific-Popup.git",
+    "kenwheeler": "https://github.com/kenwheeler/slick.git",
+    "ianlunn": "https://github.com/IanLunn/Hover.git",
+    "jzaeffere": "https://github.com/jzaefferer/jquery-validation.git",
+    "liabru": "https://github.com/liabru/jquery-match-height.git",
+    "js-cookie" : "https://github.com/js-cookie/js-cookie.git",
+    "iamceege": "https://github.com/iamceege/tooltipster.git",
+    "h5bp" : "https://github.com/h5bp/html5-boilerplate.git"
+  },
+  "not_needed": {
+    "scrollreveal" : "https://github.com/scrollreveal/scrollreveal.git",
+    "Modernizr" : "https://github.com/Modernizr/Modernizr.git",
+    "jgthms":"https://github.com/jgthms/bulma.git",
+    "basscss":"https://github.com/basscss/basic.git",
+    "bfred-it": "https://github.com/bfred-it/supports-webp.git",
+    "daneden": "https://github.com/daneden/animate.css.git",
+    "farinspace": "https://github.com/farinspace/jquery.imgpreload.git",
+    "alvarotrigo": "https://github.com/alvarotrigo/fullPage.js.git",
+    "tuupola": "https://github.com/tuupola/jquery_lazyload.git",
+    "FortAwesome":"https://github.com/FortAwesome/Font-Awesome.git",
+    "FezVrasta": "https://github.com/FezVrasta/popper.js.git",
+    "juxtapose": "https://github.com/NUKnightLab/juxtapose.git",
+    "zurb": "https://github.com/zurb/twentytwenty.git",
+    "pehaa" : "https://github.com/pehaa/beerslider.git",
+    "ilkerccom" : "https://github.com/ilkerccom/cndkbeforeafter.git",
+    "joaopereirawd" : "https://github.com/joaopereirawd/animatedModal.js.git",
+    "srobbin": "https://github.com/srobbin/jquery-backstretch.git",
+    "twbs": "https://github.com/twbs/bootstrap.git#v4-dev",
+    "mattbryson": "https://github.com/mattbryson/TouchSwipe-Jquery-Plugin.git",
+    "guillaumepotier": "https://github.com/guillaumepotier/Parsley.js.git",
+    "garand": "https://github.com/garand/sticky.git",
+    "jbdemonte": "https://github.com/jbdemonte/gmap3.git",
+    "viljamis": "https://github.com/viljamis/responsive-nav.js.git",
+    "graingert": "https://github.com/graingert/WOW.git",
+    "gijsroge": "https://github.com/gijsroge/tilt.js.git",
+    "gestixi": "https://github.com/gestixi/image-scale.git"
+  }
+}

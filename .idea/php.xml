@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="PhpIncludePathManager">
+    <include_path>
+      <path value="$PROJECT_DIR$/public_html/vendor/psr/http-message" />
+      <path value="$PROJECT_DIR$/public_html/vendor/composer" />
+      <path value="$PROJECT_DIR$/public_html/vendor/league/flysystem" />
+      <path value="$PROJECT_DIR$/public_html/vendor/league/mime-type-detection" />
+      <path value="$PROJECT_DIR$/public_html/vendor/sendgrid/sendgrid" />
+      <path value="$PROJECT_DIR$/public_html/vendor/league/glide" />
+      <path value="$PROJECT_DIR$/public_html/vendor/ralouphie/getallheaders" />
+      <path value="$PROJECT_DIR$/public_html/vendor/sendgrid/php-http-client" />
+      <path value="$PROJECT_DIR$/public_html/vendor/guzzlehttp/psr7" />
+      <path value="$PROJECT_DIR$/public_html/vendor/starkbank/ecdsa" />
+      <path value="$PROJECT_DIR$/public_html/vendor/campaignmonitor/createsend-php" />
+      <path value="$PROJECT_DIR$/public_html/vendor/intervention/image" />
+    </include_path>
+  </component>
+  <component name="PhpUnit">
+    <phpunit_settings>
+      <PhpUnitSettings custom_loader_path="$PROJECT_DIR$/public_html/vendor/autoload.php" />
+    </phpunit_settings>
+  </component>
+</project>

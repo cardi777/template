@@ -1,0 +1,43 @@
+# Created by .ignore support plugin (hsz.mobi)
+### Example user template template
+### Example user template
+
+# IntelliJ project files
+.idea
+*.iml
+out
+gen
+node_modules/
+public_html/.htaccess
+public_html/404.html
+public_html/903d3e88e5818640955012092458273e.html
+public_html/composer.json
+public_html/composer.lock
+public_html/emailer/
+public_html/googlee84d42cc198409f0.html
+public_html/googlef333c0f41c8e211b.html
+public_html/googlefd6a85e815bdcf3d.html
+public_html/home.php
+public_html/index.php
+public_html/nav.php
+public_html/phpinfo.php
+public_html/resources/css/tailwind/
+public_html/resources/images/
+public_html/robots.txt
+public_html/test.html
+public_html/tpl-doc-bottom.php
+public_html/tpl-doc-top.php
+public_html/vanilla.php
+public_html/vendor/
+!/public_html/resources/functions.php
+!/public_html/resources/TinyHtmlMinifier.php
+!/public_html/resources/bower.json
+!/public_html/resources/cache.php
+!/public_html/resources/generator.php
+!/public_html/resources/TinyMinify.php
+!/public_html/resources/functions.php
+!/public_html/resources/TinyHtmlMinifier.php
+!/public_html/resources/bower.json
+!/public_html/resources/cache.php
+!/public_html/resources/generator.php
+!/public_html/resources/TinyMinify.php
